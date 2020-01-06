@@ -1,0 +1,104 @@
+*{box-sizing: border-box;}
+:root{
+  --nav-width:25vw;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background: #A0B9C6;
+  padding-left: var(--nav-width);
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+* {
+   box-sizing: border-box;
+ }
+.bar1, .bar2, .bar3 {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    background: white;
+    transition: all 0.5s ease;
+
+}
+button{
+  overflow: visible;
+  text-transform: none;
+  outline: none! important;
+  background: transparent;
+}
+nav{
+  position:fixed;
+  left: 0;
+  width: var(--nav-width);
+  height: 100vh;
+  padding: 1em;
+  background: #802392;
+  color: white;
+}
+
+#navbar a {
+  color: white;
+}
+#navbar a:hover{
+  color: #A0B9C6;
+  font-size: 20px;
+}
+#navbar header{
+  font-size: 25px;
+  color: white;
+}
+#main-doc header{
+  font-size: 25px;
+  color: #242424;
+  margin: 50px;
+  font-weight: bold;
+}
+section article {
+    margin: 15px;
+    font-size: 0.96em;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.navbar {
+    background: #242424;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .fixed-top {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+  }
+  .navbar{
+  padding: 4px 10px! important;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px!important;
+    border-radius: 5px;
+    transition: background 2s ease;
+}
+.nav-link:hover{
+    background:#802392;
+    color:white;
+}
